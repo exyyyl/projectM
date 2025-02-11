@@ -1,5 +1,6 @@
 import { defineBoot } from '#q-app/wrappers';
 import axios, { type AxiosInstance } from 'axios';
+import { Dark } from "quasar";
 
 declare module 'vue' {
   interface ComponentCustomProperties {
@@ -27,5 +28,5 @@ export default defineBoot(({ app }) => {
   // ^ ^ ^ this will allow you to use this.$api (for Vue Options API form)
   //       so you can easily perform requests against your app's API
 });
-
+Dark.set(true);
 export { api };

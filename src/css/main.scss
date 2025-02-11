@@ -1,0 +1,35 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+  }
+
+.q-page {
+  background: transparent; // Убираем белый фон у страниц
+}
+
+// Красивые карточки
+.music-card {
+  background: #1e1e1e; // Темно-серый фон
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s;
+  &:hover {
+    background: #292929;
+    transform: scale(1.05);
+  }
+}
+// НЕОНОВЫЕ АКЦЕНТЫ
+.music-card {
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2);
+    
+    &:hover {
+      background: #292929;
+      transform: scale(1.05);
+      box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.4);
+    }
+  }
